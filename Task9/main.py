@@ -1,4 +1,4 @@
-import Task9_module as t9
+import log_analysis as t9
 import os
 
 # Task9 폴더 내에 logs.txt, summary.txt 경로 할당당
