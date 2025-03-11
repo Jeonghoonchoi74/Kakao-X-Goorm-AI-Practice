@@ -1,1 +1,1 @@
-# Kakao-X-Goorm-AI-Practice
+# Kakao-X-Goorm-AI-Practice.
