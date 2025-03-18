@@ -1,0 +1,11 @@
+order_id,customer_id,product_category,region,sales_amount,payment_method,order_date,discount_applied
+1,101,Electronics,North,200.0,Credit Card,2023-01-01,0.1
+2,102,Clothing,South,,Cash,2023-02-01,
+3,103,Groceries,East,300.0,Bank Transfer,2023-03-01,0.3
+4,104,Electronics,West,150.0,,2023-04-01,0.5
+5,105,Clothing,North,,Credit Card,2023-05-01,0.2
+6,106,Groceries,South,400.0,Cash,2023-06-01,
+7,107,Electronics,East,500.0,Bank Transfer,2023-07-01,0.0
+8,108,Clothing,West,100.0,Credit Card,2023-08-01,0.3
+9,109,Electronics,North,,,2023-09-01,0.4
+10,110,Groceries,South,600.0,Cash,2023-10-01,0.5
