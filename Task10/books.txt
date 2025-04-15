@@ -1,5 +1,0 @@
-PaperBook|first|book|True
-Ebook|second|ebook|2|False
-PaperBook|third|book|False
-Ebook|forth|ebook|4|False
-PaperBook|이거|진짜에요?|False
