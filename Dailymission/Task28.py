@@ -1,22 +1,7 @@
-def calculate_shots(n, healths):
-    total_shots = 0
-    damage_index = 0
-    
-    for i in range(n):
-        enemy_health = healths[i]
-        
-        while enemy_health > 0:
-            damage = (damage_index % 4) + 1
-            enemy_health -= damage
-            damage_index += 1
-            total_shots += 1
-    
-    return total_shots
+import torch
 
-# 입력 처리
-n = int(input())
-healths = list(map(int, input().split()))
-
-# 결과 출력
-result = calculate_shots(n, healths)
-print(result)
+print("PyTorch 버전:", torch.__version__)
+print("CUDA 버전:", torch.version.cuda)
+print("GPU 사용 가능 여부:", torch.cuda.is_available())
+print("GPU 이름:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "None")
+print("GPU 수:", torch.cuda.device_count() if torch.cuda.is_available() else 0)
